@@ -3,6 +3,33 @@ body, html {
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.bar {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.bar_l {
+    padding: 0;
+    margin-left: 10px;
+    position: absolute;
+    left: 0;
+}
+.bar_r {
+    justify-content: right;
+}
+.topo {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+}
+.pesquisa {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    padding-top: 20px;
+}
 img {
     width: 100%;
     border: 1px solid #8d8c8c6d;
